@@ -25,7 +25,7 @@ const putParams = { Bucket: bucket, Key: key, Body: body };
 const noBodyParams = { Bucket: bucket, Key: key };
 const tagParams = { Bucket: bucket, Key: key };
 const awsDelParams = { Bucket: awsBucket, Key: key };
-const testBackends = ['mem', 'file', 'aws-test'];
+const testBackends = ['mem', 'file', 'aws-test', 'azuretest'];
 const tagString = 'key1=value1&key2=value2';
 const putTags = {
     TagSet: [
